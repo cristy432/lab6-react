@@ -1,0 +1,40 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.mesaj {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.victorie {
+  color: green;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.infrangere {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.butonRestart {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

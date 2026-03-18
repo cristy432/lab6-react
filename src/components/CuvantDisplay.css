@@ -1,0 +1,22 @@
+.containerCuvant {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.litera {
+  font-size: 2rem;
+  font-weight: bold;
+  min-width: 30px;
+  text-align: center;
+  border-bottom: 3px solid black;
+  padding: 0 5px;
+}
+
+.corecta {
+  color: green;
+}
+
+.gresita {
+  color: red;
+}

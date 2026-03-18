@@ -1,0 +1,10 @@
+.spanzuratoreImagine {
+  width: 300px;
+  height: 300px;
+}
+.containerSpanzuratoare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}

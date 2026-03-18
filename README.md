@@ -1,16 +1,16 @@
-## Sarcină
+# React + Vite
 
-Implementați un joc de tip **Hangman** (Spânzurătoarea) utilizând React.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Cerințe
+Currently, two official plugins are available:
 
-1. Jocul trebuie să selecteze un cuvânt aleatoriu dintr-o listă predefinită, iar jucătorul ghicește litere. La fiecare literă greșită, se desenează o nouă parte a spânzurătorii. Jocul se termină cu victorie (toate literele ghicite) sau înfrângere (desenul complet).
-2. Datele necesare jocului (lista de cuvinte, literele alfabetului, URL-urile imaginilor pentru stadii) sunt deja furnizate în directorul `constants/`. Importați și utilizați aceste date în componentele voastre.
-3. Definiți componente cât mai generice care primesc date prin **props**. 
-4. Jocul trebuie să ofere feedback vizual clar:
-   - Literele deja ghicite trebuie dezactivate
-   - La final, literele neghicite și cele corecte trebuie evidențiate diferit (ex: roșu/verde)
-   - Mesaj de victorie sau înfrângere
-   - Posibilitatea de a reporni jocul
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Un exemplu de implementare a jocului îl găsiți [aici](https://react-at2.vercel.app/)
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
